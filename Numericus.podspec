@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Numericus'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Numericus.'
+  s.summary          = 'Library that should help with digital input streams.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+As part of the effort to rewrite TheConverter.app in Swift, this component should help with decimal input streams.
                        DESC
 
-  s.homepage         = 'https://github.com/vkofman/Numericus'
+  s.homepage         = 'https://github.com/vladimirkofman/Numericus'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'vkofman' => 'vladimir.kofman@intel.com' }
-  s.source           = { :git => 'https://github.com/vkofman/Numericus.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'vkofman' => 'vladimir@kofman.com' }
+  s.source           = { :git => 'https://github.com/vladimirkofman/Numericus.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/VladimirK'
 
   s.ios.deployment_target = '8.0'
 

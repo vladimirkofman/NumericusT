@@ -1,0 +1,6 @@
+framework module Numericus {
+  umbrella header "Numericus-umbrella.h"
+
+  export *
+  module * { export * }
+}

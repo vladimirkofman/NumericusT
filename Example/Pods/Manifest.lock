@@ -1,0 +1,16 @@
+PODS:
+  - Numericus (0.1.0)
+
+DEPENDENCIES:
+  - Numericus (from `../`)
+
+EXTERNAL SOURCES:
+  Numericus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Numericus: aa4939c9b250820708c6d931a8ead2887692da7a
+
+PODFILE CHECKSUM: 5f4dc19020e202d776b551fbf3308d337f79f6d1
+
+COCOAPODS: 1.2.0
