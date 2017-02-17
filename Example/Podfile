@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Numericus_Example' do
+  pod 'Numericus', :path => '../'
+
+  target 'Numericus_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
