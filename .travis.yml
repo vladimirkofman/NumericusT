@@ -12,5 +12,5 @@ xcode_workspace: Example/Numericus.xcworkspace
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/Numericus.xcworkspace -scheme Numericus-Example -sdk iphonesimulator10.1 -destination "OS=10.1,name=iPhone 6s Plus" ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail && xcodebuild test -workspace Example/Numericus.xcworkspace -scheme Numericus-Example -sdk iphonesimulator10.2 -destination "OS=10.1,name=iPhone 6S Plus" ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
